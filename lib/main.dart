@@ -361,7 +361,7 @@ class _HomePageState extends State<HomePage> {
                   _buildSocialButton(
                     icon: Icons.email_rounded,
                     label: 'Contact',
-                    url: 'mailto:jasserjasser107@email.com',
+                    url: 'mailto:jasserjasser107@gmail.com',
                   ),
                 ],
               ),
@@ -803,8 +803,8 @@ class _HomePageState extends State<HomePage> {
         _buildContactItem(
           icon: Icons.email_outlined,
           title: 'Email',
-          value: 'jasser.boubaker@email.com',
-          onTap: () => _launchUrl('mailto:jasser.boubaker@email.com'),
+          value: 'jasserjasser107@gmail.com',
+          onTap: () => _launchUrl('mailto:jasserjasser107@gmail.com'),
         ),
         const SizedBox(height: 20),
         _buildContactItem(
@@ -1100,7 +1100,7 @@ $message
 ''';
 
     final emailUri = Uri.parse(
-      'mailto:jasser.boubaker@email.com?subject=${Uri.encodeComponent(subject)}&body=${Uri.encodeComponent(body)}',
+      'mailto:jasserjasser107@gmail.com?subject=${Uri.encodeComponent(subject)}&body=${Uri.encodeComponent(body)}',
     );
 
     _launchUrl(emailUri.toString());
